@@ -43,7 +43,3 @@ account_info.deposit(1500.00)
 account_info.withdraw(1400.00)
 account_info.set_balance(-500)
 account_info.display_account_info()
-if not heroes:
-    print("The Turtle has vanquished the heroes!")
-elif turtle.hp <= 0:
-    print("The heroes have triumphed over the Turtle!")
